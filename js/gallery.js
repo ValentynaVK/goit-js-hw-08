@@ -72,7 +72,7 @@ function createGalleryItem(image) {
 
   const link = document.createElement("a");
   link.classList.add("gallery-link");
-  link.href = "#";
+  link.href = "${image.original}";
 
   const img = document.createElement("img");
   img.classList.add("gallery-image");
